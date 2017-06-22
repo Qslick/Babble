@@ -1,0 +1,33 @@
+StackLayout {
+    padding: 20px;
+    color: white;
+}
+
+.main_page {
+    /*background-image: url("~/assets/images/softlight.jpg");
+    background-repeat: no-repeat;
+        background-size: cover;*/
+background-color: #41ACE4;
+}
+
+.title {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.login_btn {
+    margin-top: 20%;
+}
+
+.font {
+    margin-top: 30px;
+}
+
+.input {
+align-content: center;
+}
+
+.forgot {
+    margin-top: 50px;
+    margin-bottom: 10%;
+}

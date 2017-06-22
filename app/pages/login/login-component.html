@@ -1,0 +1,26 @@
+<!--<ActionBar opacity="0" title="Details" class="action-bar"></ActionBar>-->
+
+
+
+<StackLayout class="main_page">
+
+    <Label class="h1 title" text="Babble"></Label>
+    <!--<Label class="fa" [text]="'fa-bluetooth' | fonticon"></Label> -->
+
+    <StackLayout orientation="horizontal">
+        <Label class="font fa" [text]="'fa-user' | fonticon"></Label>
+        <TextField class="username" hint="Username" text={{email}} (textCHange)="emailInput($input)"></TextField>
+    </StackLayout>
+
+    <StackLayout class="input" orientation="horizontal">
+        <Label class="font fa" [text]="'fa-lock' | fonticon"></Label>
+        <TextField class="password" hint="Password" text={{pass}} (textCHange)="passwordInput($input)"></TextField>
+    </StackLayout>
+
+    <Button class="btn btn-primary btn-rounded-sm login_btn" text="Log In" (tap)="login()"></Button>
+    <Button class="btn btn-primary btn-rounded-sm" text="Log In with phone" (tap)="loginPhone()"></Button>
+     <Button class="btn btn-primary btn-outline btn-rounded-sm sign" text="SignUp" (tap)="signUp()"></Button>
+
+        <Label class="forgot" text="Forgot Your Password" (tap)="forgotPassword()"></Label>
+
+</StackLayout>
